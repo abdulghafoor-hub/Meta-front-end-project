@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+.navBar{
+  background-color: white;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+.left{
+  align-items: flex-start;
+  width: 50%;
+}
+.left img:hover{
+  background-color: rgb(212, 209, 17);
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: inset;
+}
+.right{
+  align-items: flex-end;
+  width: 50%;
+}
+.navBar ul{
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+}
+.navBar ul li{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 10px;
+  text-transform: capitalize;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navBar ul li a{
+  text-decoration: none;
+  color:black;
+}
+.navBar ul li a:hover{
+  color: white;
+  background-color:rgb(12, 77, 197);
+  padding: 8px;
+  border-radius: 12px;
+}
+.products{
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4,300px);
+  grid-auto-rows: 2fr 3fr;
+}
+.products img{
+  width: 300px;
+  height: 300px;
+}
+.footer{
+  display: flex;
+  margin-top: 25px;
+  height: 20vh;
+  justify-content: space-around;
+  align-content: center;
+  
+}
